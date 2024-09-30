@@ -1,0 +1,94 @@
+<html>
+<head> <title> Outputs </title>
+<h1 align="center"> <font face="Courier New"> Sample Outputs for Each Lesson </font> </h1> 
+<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			font-family: Trebuchet MS; padding-right: 15px; padding-left: 15px; height: 85px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: center;
+		}
+		.navbar li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 15px; font-weight: bold; margin-right: 15px;
+		}		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                .button-container a:hover {
+                          background-color: #d9dac6; 
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+                .button-container a {
+                         display: inline-block; width: 200px; height: 70px; line-height: 70px; font-size: 20px; background-color: #f2f3a3; color: black; border-radius: 5px;
+                         text-align: center; text-decoration: none; margin: 0 10px; font-family: Trebuchet MS; font-weight: bold; cursor: pointer;
+</style> 
+</head>
+
+<body bgcolor="#f9ff85">
+<font face="Trebuchet MS">
+<nav class="navbar"> <div class="navdiv">
+<ul>
+<li> <a href="index.html"> <img src="home_icon.png" width="65" height="65"> </a> </li>
+<li> <a href="activities1.html"> <img src="activities icon.png" width="65" height="65"> </a> </li>
+<li> <a href="outputs.html"> <img src="outputs icon.png" width="65" height="65"> </a> </li>
+<li> <a href="reflection.html"> <img src="reflection icon.png" width="65" height="65"> </a> </li>
+</ul>
+</div>
+</nav>
+
+<h2 align="center"> <i> Click the buttons to view the browser and HTML Code! Feel free to interact with the browser if applicable. </i> </h2>
+<h4 align="center"> <u> Note: When clicking the text file/code, press the back button on the browser to go back to Outputs page. </u> </h4>
+
+<h3 align="center"> <img src="XHTML.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 1.html"> Browser </a>
+<a href="lesson 1.txt"> HTML Code </a>
+</div>
+<h3 align="center"> <img src="lists.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 2.html"> Browser </a>
+<a href="lesson 2.txt"> HTML Code </a>
+</div>
+<h3 align="center"> <img src="tables.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 3.html"> Browser </a>
+<a href="lesson 3.txt"> HTML Code </a>
+</div>
+<h3 align="center"> <img src="nested tables.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 4.html"> Browser </a>
+<a href="lesson 4.txt"> HTML Code </a>
+</div>
+<h3 align="center"> <img src="hyperlinks.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 5.html"> Browser </a>
+<a href="lesson 5.txt"> HTML Code </a>
+</div>
+<h3 align="center"> <img src="forms.jpg" width="300" height="200"> </h3>
+<div class="button-container">
+<a href="lesson 6.html"> Browser </a>
+<a href="lesson 6.txt"> HTML Code </a>
+</div>
+</body>
+</html>

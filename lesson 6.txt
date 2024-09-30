@@ -1,0 +1,110 @@
+<html>
+<head> <title> Lessons 6-8 </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+</style> </head>
+<h1 align="center"> Forms </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<body>
+<div>
+<p align="center"> All of the discussed inputs of forms are included in this webpage. </p>
+<form action="server.html" method="post">
+<h1 align="center"> JHS Lapiscians Survey </h1>
+<h4> Name: <input type="text"> </h4>
+<h4> Grade and Section: </h4>
+<select name="gradeandsection">
+<option> 7 - Accountability </option>
+<option> 7 - Benevolence </option>
+<option> 7 - Blessedness </option>
+<option> 7 - Bravery </option>
+<option> 8 - Connection </option>
+<option> 8 - Consideration </option>
+<option> 8 - Contentment </option>
+<option> 8 - Courage </option>
+<option> 9 - Fairness </option>
+<option> 9 - Faith </option>
+<option> 9 - Family </option>
+<option> 9 - Fidelity </option>
+<option> 10 - Commitment </option>
+<option> 10 - Environmentalist </option>
+<option> 10 - Fortitude </option>
+<option> 10 - Imaginative </option>
+</select>
+<p> <b> Why did you choose to go to LPSci? <br>
+<textarea name=“feedback” rows=“20” cols=“40”> </textarea> </b> </p>
+
+<p><b> What club/s are you in? Select all that apply. </b> <br><br>
+<input name="paham" type="checkbox" value="cross"> Ang Paham <br>
+<input name="apclub" type="checkbox" value="cross"> AP Club <br>
+<input name="arts" type="checkbox" value="cross"> Arts Club <br>
+<input name="bsp" type="checkbox" value="cross"> Boy Scouts <br>
+<input name="cic" type="checkbox" value="cross"> Campus Integrity Crusaders <br>
+<input name="coro" type="checkbox" value="cross"> Coro Lapisciano <br>
+<input name="dancetroupe" type="checkbox" value="cross"> Dance Troupe <br>
+<input name="gsp" type="checkbox" value="cross"> Girl Scouts <br>
+<input name="ilustrado" type="checkbox" value="cross"> Ilustrado Book Club <br>
+<input name="standardpress" type="checkbox" value="cross"> LPSci Standard Press<br>
+<input name="maya" type="checkbox" value="cross"> MAYA <br>
+<input name="math" type="checkbox" value="cross"> Math Club <br>
+<input name="teatro" type="checkbox" value="cross"> Teatro Lapisciano <br>
+<input name="tle" type="checkbox" value="cross"> TLE-Steps <br>
+<input name="values" type="checkbox" value="cross"> Values Club <br>
+<input name="yeso" type="checkbox" value="cross"> YES-O <br>
+</p>
+
+<p><b> How satisfied are you with the facilities in the school? (court, library, clinic, etc.) </b></p>
+<p><input name="verydis" type="radio" value="cross">Very Dissatisfied</p>
+<p><input name="dissat" type="radio" value="cross">Dissatisfied</p>
+<p><input name="undec" type="radio" value="cross">Undecided</p>
+<p><input name="sat" type="radio" value="cross">Satisfied</p>
+<p><input name="verysat" type="radio" value="cross">Very Satisfied</p>
+
+<p><b> How satisfied are you with the teachers, administrators, non-teaching personnel, and other people in the school? </b></p>
+<p><input name="verydis" type="radio" value="cross">Very Dissatisfied</p>
+<p><input name="dissat" type="radio" value="cross">Dissatisfied</p>
+<p><input name="undec" type="radio" value="cross">Undecided</p>
+<p><input name="sat" type="radio" value="cross">Satisfied</p>
+<p><input name="verysat" type="radio" value="cross">Very Satisfied</p>
+
+<p><b> How satisfied are you with the overall look or environment of the school? </b></p>
+<p><input name="verydis" type="radio" value="cross">Very Dissatisfied</p>
+<p><input name="dissat" type="radio" value="cross">Dissatisfied</p>
+<p><input name="undec" type="radio" value="cross">Undecided</p>
+<p><input name="sat" type="radio" value="cross">Satisfied</p>
+<p><input name="verysat" type="radio" value="cross">Very Satisfied</p>
+
+<p><b> Want to share a picture of the school, or maybe your class? Upload it here! </b></p>
+<input type="file" name="image" accept="file_extension">
+
+<p><b> Thank you for answering this survey! </b></p>
+<p><input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</div>
+<div class="button-container">
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="outputs.html"> Go back to Outputs </a> </button>
+</div>
+</body>
+</html>
