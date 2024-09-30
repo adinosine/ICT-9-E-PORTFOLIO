@@ -1,0 +1,79 @@
+<html>
+<head> <title> Lesson 4 </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+</style> </head>
+<h1 align="center"> Nesting Tables </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<body>
+<div>
+<p align="center"> This webpage contains nested tables, rowspan, and colspan. </p>
+<h3 align="center"> Income for July-September </h3>
+<table border="1" width="100%">
+<tr>
+<td bgcolor="#aaf4ff"> 
+<h4 align="center"> Dashboard </h4>
+<ul type="disc">
+<li> <a href="#"> My Profile </a></li>
+<li> <a href="#"> Company Announcements </a></li>
+<li> <a href="#"> Financial Reports </a></li>
+<li> <a href="#"> Contact List </a></li>
+</ul>
+</td>
+<td bgcolor="#ff5540">
+<table border="1" width="100%" align="center">
+<tr>
+<th bgcolor="#c1acf2"> July </th>  
+<th bgcolor="#c1acf2"> August </th>
+<th bgcolor="#c1acf2"> September </th>
+</tr> 
+<tr bgcolor="pink">
+<td align="center"> Week 1-2: 500 </td>
+<td align="center"> Week 1-2: 550 </td>
+<td align="center"> Week 1-2: 450 </td>
+</tr>
+<tr bgcolor="pink">
+<td align="center"> Week 3: 250 </td>
+<td align="center"> Week 3: 450 </td>
+<td align="center"> Week 3: 300 </td>
+</tr>
+<tr bgcolor="pink">
+<td align="center"> Week 4: 400 </td>
+<td align="center"> Week 4: 300 </td>
+<td align="center"> Week 4: 400 </td>
+</tr>
+<tr bgcolor="pink">
+<td rowspan="3" colspan="3" align="center"> Sum for July-September: 3,600 </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="button-container">
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="outputs.html"> Go back to Outputs </a> </button>
+</div>
+</body>
+</html>
