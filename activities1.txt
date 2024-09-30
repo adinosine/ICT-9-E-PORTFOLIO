@@ -1,0 +1,79 @@
+<html><head> <title> Activities </title>
+</head><body bgcolor="#f9c4c4">
+<h1 align="center"> <font face="Courier New"> 1st Quarter Activities </font> </h1> 
+
+<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			font-family: Trebuchet MS; padding-right: 15px; padding-left: 15px; height: 85px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: center;
+		}
+		.navbar li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 15px; font-weight: bold; margin-right: 15px;
+		}		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+	</style>
+
+
+
+<font face="Trebuchet MS">
+<nav class="navbar"> <div class="navdiv">
+<ul>
+<li> <a href="index.html"> <img src="home_icon.png" width="65" height="65"> </a> </li>
+<li> <a href="activities1.html"> <img src="activities icon.png" width="65" height="65"> </a> </li>
+<li> <a href="outputs.html"> <img src="outputs icon.png" width="65" height="65"> </a> </li>
+<li> <a href="reflection.html"> <img src="reflection icon.png" width="65" height="65"> </a> </li>
+</div>
+</ul>
+</div>
+</nav>
+<br>
+
+<table width="100%" cellspacing="10px">
+<tbody><tr>
+<td colspan="2"> <h2 align="center"> <u> 1st Quarter Photos </u> </h2> </td>
+</tr>
+<tr>
+<td align="center" width="50%"> <i><u><b> Buwan ng Wika Opening Program, 08/05/2024 </b></u></i> </td>
+<td> <center> <img src="buwan ng wika.jpg" width="400" height="270"> </center></td>
+</tr>
+<tr><td align="center" width="50%"> <i><u><b> Science Respiratory &amp; Circulatory System Human Simulation (Performance Task), 08/08/2024 </b></u></i> </td>
+<td> <center> <img src="sci.jpg" width="200" height="250"> </center></td>
+</tr>
+<tr><td align="center" width="50%"> <i><u><b> LPSci Foundation Day, 08/24/2024 </b></u></i> </td>
+<td> <center> <img src="foundation.jpg" width="400" height="270"> </center></td>
+</tr>
+<tr>
+<td align="center" width="50%"> <i><u><b> Filipino Debate, 09/13/2024 </b></u><i> </i></i></td>
+<td> <center> <img src="debate.jpg" width="400" height="270" <="" td="">
+</center></td></tr>
+<tr>
+<td align="center" width="50%"> <i><u><b> 1st Quarter Periodicals: 2nd Day, 09/26/2024 </b></u></i> </td>
+<td> <center> <img src="perio.jpg" width="400" height="270"> </center></td>
+</tr>
+<tr>
+<td colspan="2"> <h2 align="center"> <u> 1st Quarter Videos </u> </h2> </td>
+</tr>
+<tr>
+<td align="center" width="50%"> <i><u><b> English Song Performance, 08/20/2024 </b> </u></i></td>
+<td> <center> <video width="400" height="250" controls="controls"> <source src="english.mp4" type="video/mp4" <="" video=""> </video></center></td>
+</tr><tr>
+<td align="center" width="50%"> <i><u><b> Advanced Chemistry Video Lesson (Temperature): Group 5 - Fairness, 09/04/2024 </b></u></i> </td>
+<td> <center> <video width="400" height="250" controls="controls"> <source src="ADVANCED CHEMISTRY GROUP 5.mp4" type="video/mp4" <="" video=""> </video></center></td>
+</tr>
+</tbody></table></font></body></html>
