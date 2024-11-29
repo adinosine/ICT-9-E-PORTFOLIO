@@ -1,0 +1,42 @@
+<html>
+<head> <title> CSS Embedded Style </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+</style>
+</head>
+<body>
+<h1 align="center"> Basic CSS Styling </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<p align="center"> This webpage contains CSS embedded style. If you check its code in the Outputs page, you will see the styling enclosed within the style tags inside of the 
+head tag. In order to create the button you see below, embedded style is used. Click on the other buttons to check inline and linked CSS style! </p>
+<div class="button-container">
+<button> <a href="inline.html"> Inline Style </a> </button>
+<button> <a href="linked.html"> Linked Style </a> </button>
+</div>
+<div class="button-container">
+<button> <a href="embedded2.html"> Webpage Code </a> </button>
+<button> <a href="outputs.html"> Go back to Outputs </a> </button>
+</div>
+</body>
