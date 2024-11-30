@@ -1,0 +1,71 @@
+<html>
+<head> <title> Formatting Text </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+               
+                }
+                p {
+                         font-family: Trebuchet MS; font-style: italic; font-weight: 200; text-align: center;
+                }
+                .typo1 {
+                         color: red; 
+                }
+                .typo2 {
+                         color: orange; 
+                }
+                .typo3 {
+                         color: green; 
+                }
+                .typo4 {
+                         color: blue; 
+                }
+                .typo5 {
+                         color: purple; 
+                }
+                .typo6 {
+                         color: #ff6efd; 
+                }
+                h3 {
+                         color: #f75757; text-align: center; font-family: Trebuchet MS;
+                }
+                h2 {
+                         color: #9ed665; text-align: center; font-family: Trebuchet MS;
+</style> 
+</head>
+<body>
+<h1 align="center"> Formatting Text with CSS </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<h2> Now We Are Six <br> By A. A. Milne </h2>
+<p class="typo1"> When I was One, <br> I had just begun. </p>
+<p class="typo2"> When I was Two, <br> I was nearly new. </p>
+<p class="typo3"> When I was Three, <br> I was hardly me. </p>
+<p class="typo4"> When I was Four, <br> I was not much more. </p>
+<p class="typo5"> When I was Five, <br> I was just alive. </p>
+<p class="typo6"> But now I am Six, <br> I'm as clever as clever, <br> So I think I'll be six now for ever and ever. <br> </p>
+<h3> This poem uses CSS for formatting text, resulting in different colors, presence of font, and text alignment. </h3>
+<div class="button-container">
+<button> <a href="outputs.html"> Go back to Outputs </a> </button>
+</div>
+</body>
+</html>
