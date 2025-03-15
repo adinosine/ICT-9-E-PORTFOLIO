@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+<head><title>If Else</title>
+<script type="text/javascript"> 
+function check()
+{ 
+if (document.example.answer.value=="HOT") 
+{window.location.href="index.html";}
+else if (document.example.answer.value=="") 
+{alert("No answer was recorded. Try again!");} 
+else {alert("Not quite. Try again!");}
+} 
+</script> </head> 
+<body style="font-family: Tahoma; align: center; background-color: #d66b6b;"> 
+<h1 align="center"> CONFIDENTIAL INFORMATION: <br> Only authorized people allowed. </h1>
+<h4 align="center"> Answer the question correctly to gain access to the information. </h4>
+<p align="center"> What's the opposite of cold? (in all capital letters) </p> 
+<center> <form name="example"> <input type="text" name="answer" value=""> 
+<input type="button" name="answerbutton" value="SUBMIT" onClick=check()> 
+</form>
+</center> <br><br>
+<div style="text-align: center;">
+<img src="stop.jpg" alt="stop" width="200" height="200">
+<img src="hmm.jpg" alt="thinking" width="200" height="200">
+</div>
+</body>
+</html>
+
