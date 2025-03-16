@@ -1,0 +1,56 @@
+<html>
+<head> <title> Lesson 2: If-Else-If </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+                body {
+                         font-weight: 200;
+                }
+                
+</style>
+<script type="text/javascript">
+function check()
+{ 
+if (document.example.answer.value=="FAIRNESS") 
+{alert("Fairness is the correct answer!");} 
+else if (document.example.answer.value=="") 
+{alert("No answer was recorded. Try again!");} 
+else {alert("Not quite. Try again!");}
+} 
+</script> 
+</head> 
+<body> 
+<h1 align="center"> If-Else-If Statement </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<p align="center"> What section is Adi from? (in all capital letters) </p> 
+<center> <form name="example"> <input type="text" name="answer" value=""> 
+<input type="button" name="answerbutton" value="SUBMIT" onClick=check()> 
+</form>
+</center>
+<div class="button-container">
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="outputs.html"> Go back to Outputs </a> </button>
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="switch.html"> Switch Statement </a> </button>
+</div>
+</body>
+</html>
