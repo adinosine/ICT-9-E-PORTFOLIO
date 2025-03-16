@@ -1,0 +1,45 @@
+<html>
+<head> <title> Lesson 3: Return Statement </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+                body {
+                         font-weight: 200;
+                }
+                
+</style>
+<script type="text/javascript">
+function product(x,y)
+{
+return x*y;
+}
+</script>
+</head>
+<body>
+<script language="javascript">
+document.write("The product of x and y is ");
+document.write(product (23,3));
+</script>
+</body>
+</html>
