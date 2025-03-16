@@ -1,0 +1,71 @@
+<html>
+<head> <title> Lesson 1 </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+               
+                }
+                body {
+                         font-weight: 200;
+                }
+                h3 {
+                         color: #61cfd6; font-weight: 450; margin: 10px;
+                }
+                img {
+                         height: 200px; width: 200px; margin: 10px; float: left;
+                }
+                .padding {
+                         padding: 20px; margin: 5px;
+                }
+                .molang {
+                         color: #e2a0a9; font-family: Trebuchet MS; 
+                }
+                .piupiu {
+                         color: #e1d169; font-family: Trebuchet MS;
+</style>
+<script type="text/javascript">
+function showalert()
+{alert ("ICT is cool :)");}
+function showprompt()
+{var name=prompt("Please enter your name:");
+ if (name!=null && name!="")
+{document.write("Cool name!");}}
+function show_confirm()
+{var ans=confirm("Press OK if you think coding is fun");
+ if (ans==true)
+{document.write("Yippee!");}
+ else{document.write("Nooo!");}}
+</script>
+</head>
+<body>
+<h1 align="center"> Popup Boxes  </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<h4 align="center"> <u><i> Note: If you are brought to another page, press the back button to go back to this page. </i></u> <br><br>
+<input type="button" onclick="showalert()" value="Click here for a very cool and true fact!">
+<input type="button" onclick="showprompt()" value="What's your name?">
+<input type="button" onclick="show_confirm()" value="Coding question">
+<div class="button-container">
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="outputs.html"> Go back to Outputs </a> </button>
+</div>
+</body>
+</html>
