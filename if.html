@@ -1,0 +1,51 @@
+<html>
+<head> <title> Lesson 2: If </title>
+<style type="text/css">
+		*{		               
+                b, strong {
+                        font-weight: bold;
+                }
+                i, em {
+                        font-style: italic;
+                }
+                u {
+                        text-decoration: underline
+                }
+                .button-container {
+                         text-align: center; margin-top: 50px; 
+                }
+                button {
+                         width: 200px; height: 70px; font-size: 20px; background-color: #f2f3a3; color: white; border: none; border-radius: 5px; cursor: pointer; 
+                         padding: 15px 32px; 
+                }
+                button:hover {
+                         background-color: #d9dac6;
+                }
+                button a {
+                         text-decoration: none; color: black;
+                }
+                body {
+                         font-weight: 200;
+                }
+                
+</style>
+<script type="text/javascript">
+function check()
+{if (document.example.answer.value=="red, yellow, green")
+{document.write("You answered correctly! You are a certified Lapiscian!");}}
+</script>
+</head>
+<body>
+<h1 align="center"> If Statement </h1>
+<hr width="1300" size="5" noshade="noshade"/>
+<h4 align="center"> <u><i> Note: If you are brought to another page, press the refresh button to go back to this page. </i></u> <br><br>
+<p> What does RYG mean? Hint: The colors that represent LPSci (in all lowercase letters, words separated by a comma)
+<form name="example">
+<input type="text" name="answer" value="">
+<input type="button" name="answerbutton" value="SUBMIT" onClick="check()">
+<div class="button-container">
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="outputs.html"> Go back to Outputs </a> </button>
+<button style="cursor:pointer; border-radius:10px; color:white; text-align:center;"> <a href="ifelse.html"> If-Else Statement </a> </button>
+</div>
+</body>
+</html>
